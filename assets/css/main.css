@@ -41,6 +41,7 @@ h1, h2, h3, h4, h5, h6 {
     padding-right: 2em;
   }
 }
+
 @media screen and (min-width: 1200px) {
   header .container-fluid,
   section .container-fluid,
@@ -48,6 +49,7 @@ h1, h2, h3, h4, h5, h6 {
     padding-left: 7em;
     padding-right: 7em;
   }
+   
 }
 @media screen and (min-width: 1440px) {
   header .container-fluid,
@@ -56,6 +58,7 @@ h1, h2, h3, h4, h5, h6 {
     padding-left: 15em;
     padding-right: 15em;
   }
+   
 }
 
 .resize{
@@ -112,7 +115,7 @@ a:hover, a:focus {
 }
 
 .navbar-logo img {
-  width: 100px;
+  width: 40px;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -4548,4 +4551,16 @@ footer .newsletter-form .alert a {
 }
 footer .newsletter-form .alert a:hover, footer .newsletter-form .alert a:focus {
   text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  header .container-fluid,
+  section .container-fluid,
+  footer .container-fluid {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+  .overlay{
+    margin-top: -32px;
+  }
 }

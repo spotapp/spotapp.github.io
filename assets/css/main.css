@@ -4563,4 +4563,7 @@ footer .newsletter-form .alert a:hover, footer .newsletter-form .alert a:focus {
   .overlay{
     margin-top: -32px;
   }
+  .logo{
+    width: 120px;
+  }
 }

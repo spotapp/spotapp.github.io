@@ -125,6 +125,7 @@ $(document).ready( function() {
 				prev: '#fullslider-arrow_left',
 				next: '#fullslider-arrow_right',
 				pager: '#fullslider-pager',
+				speed: 4000
 				// autostop: 1, // uncomment to disable autoplay
 				// autostopCount: 1 // uncomment to disable autoplay
 			}

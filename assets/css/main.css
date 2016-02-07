@@ -4553,11 +4553,24 @@ footer .newsletter-form .alert a:hover, footer .newsletter-form .alert a:focus {
   text-decoration: none;
 }
 
-/*@media screen and  (max-width: 768px) {
+@media screen and  (max-width: 768px) {
   .overlay{
-    margin-top: -32px;
+    margin-top: -120px;
+    height: 1000px;
   }
   .logo{
     width: 120px;
   }
-}*/
+}
+
+@media screen and  (max-width: 567px) {
+  .overlay{
+    margin-top: -32px;
+    height: 1000px;
+
+  }
+  .logo{
+    width: 120px;
+  }
+}
+

@@ -4554,12 +4554,6 @@ footer .newsletter-form .alert a:hover, footer .newsletter-form .alert a:focus {
 }
 
 @media screen and  (max-width: 768px) {
-  header .container-fluid,
-  section .container-fluid,
-  footer .container-fluid {
-    padding-left: 2em;
-    padding-right: 2em;
-  }
   .overlay{
     margin-top: -32px;
   }
